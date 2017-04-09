@@ -14,8 +14,8 @@ export default ({ config, db }) => {
 		res.json({ version });
 	});
 
-	api.get('/test', (req,res) => {
-		res.json({ data: 'test' })
+	api.get('/sql', (req,res) => {
+		res.json({ data: 'sql' })
 	})
 
 	api.get('/redis', (req,res) => {
