@@ -14,15 +14,15 @@ export default ({ config, db }) => {
 		res.json({ version });
 	});
 
-	api.get('/sql', (req,res) => {
+	api.get('/sql', (req, res) => {
 		res.json({ data: 'sql' })
 	})
 
-	api.get('/redis', (req,res) => {
+	api.get('/redis', (req, res) => {
 		res.json({ data: 'redis' })
 	})
 
-	api.get('/mongo', (req,res) => {
+	api.get('/mongo', (req, res) => {
 		res.json({ data: 'mongo' })
 	})
 
