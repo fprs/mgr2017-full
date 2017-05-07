@@ -29,10 +29,14 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
+    "co": "^4.6.0",
     "compression": "^1.5.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.6",
     "morgan": "^1.8.0",
+    "redis": "^2.7.1",
     "resource-router-middleware": "^0.6.0"
   },
   "devDependencies": {
